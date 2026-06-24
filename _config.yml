@@ -1,0 +1,62 @@
+# Site settings
+# Customize these values before deployment.
+title: "Jithin Kanayankottupoyil"
+tagline: "Air Quality Modeling | Emissions Inventories | Machine Learning | Regulatory Analysis"
+description: >-
+  Personal academic and professional website for Jithin Kanayankottupoyil,
+  an atmospheric scientist and air quality specialist working on emissions inventories,
+  dispersion and receptor modeling, ambient monitoring, and machine learning applications
+  for air quality.
+url: "https://YOUR-GITHUB-USERNAME.github.io" # Replace after deployment.
+baseurl: "" # Use "/repository-name" for project pages; keep empty for username.github.io.
+
+# Author profile
+author:
+  name: "Jithin Kanayankottupoyil"
+  short_name: "Jithin K."
+  email: "kpjithin92@gmail.com"
+  location: "Riverside, California, USA"
+  phone: "+1 940-208-6449"
+  role: "Air Pollution Specialist"
+  affiliation: "California Air Resources Board (CARB)"
+  github: "https://github.com/YOUR-GITHUB-USERNAME" # Replace with your actual GitHub URL.
+  linkedin: "https://www.linkedin.com/in/YOUR-LINKEDIN" # Replace with your actual LinkedIn URL.
+  scholar: "https://scholar.google.com/citations?user=YOUR-ID" # Replace with your actual Google Scholar URL.
+  orcid: "" # Optional: add ORCID URL.
+
+# Jekyll settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+timezone: America/Los_Angeles
+
+# GitHub Pages-supported plugins only.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation links
+nav:
+  - title: "About"
+    url: "/about/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Build exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
