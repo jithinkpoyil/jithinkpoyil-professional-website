@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p><strong>{{ site.title }}</strong></p>
+      <p>{{ site.tagline }}</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.author.github }}">GitHub</a>
+      <a href="{{ site.author.linkedin }}">LinkedIn</a>
+      <a href="{{ site.author.scholar }}">Google Scholar</a>
+    </div>
+  </div>
+  <div class="container footer-small">
+    <p>© {{ site.time | date: '%Y' }} {{ site.title }}. Built with Jekyll and GitHub Pages.</p>
+  </div>
+</footer>
