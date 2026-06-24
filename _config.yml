@@ -8,7 +8,7 @@ description: >-
   dispersion and receptor modeling, ambient monitoring, and machine learning applications
   for air quality.
 url: "https://jithinkpoyil.github.io" # Replace after deployment.
-baseurl: "" # Use "/jithinkpoyil-professional-website" for project pages; keep empty for username.github.io.
+baseurl: "/jithinkpoyil-professional-website" # Use "/jithinkpoyil-professional-website" for project pages; keep empty for username.github.io.
 
 # Author profile
 author:
